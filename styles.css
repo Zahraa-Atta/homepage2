@@ -1,0 +1,164 @@
+* {
+    
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        list-style-type: none;
+        text-decoration: none;
+      
+}
+
+.container {
+    margin: auto;
+    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons button {
+    margin-left: 15px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.login {
+    background-color: #F6F0E8;
+    border: 1px solid #F6F0E8;
+    color: #000000;
+}
+
+button.signup {
+    background-color: #14203E;
+    border: 1px solid #14203E;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #FFFCF8;
+    margin-bottom: 140px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+    color: #14203E;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.start-trial-hero-btn {
+    background-color: #14203E;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.articles {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+   
+}
+
+
+
+.article-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.article {
+    width: 200px;
+    text-align: left;
+}
+
+.article img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.article h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.article p {
+    color: #999;
+}
+
+
+.articles h2 {
+    font-size: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.articles h2::before, 
+.articles h2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 1.5px;
+    background-color: #14203E;
+}
+
+.articles h2::before {
+    right: 100%;
+    margin-right: 10px;
+}
+
+.articles h2::after {
+    left: 100%;
+    margin-left: 10px;
+}
